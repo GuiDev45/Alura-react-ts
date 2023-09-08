@@ -1,9 +1,9 @@
-import Botao from "./components/Button";
+import Formulario from "./components/Formulario";
 
 function App() {
   return (
     <>
-      <Botao />
+      <Formulario />
     </>
   );
 }
