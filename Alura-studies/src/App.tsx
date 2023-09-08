@@ -1,7 +1,9 @@
+import Botao from "./components/Button";
+
 function App() {
   return (
     <>
-      <h1>Teste</h1>
+      <Botao />
     </>
   );
 }
