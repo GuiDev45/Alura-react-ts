@@ -26,7 +26,8 @@ const Formulario = () => {
           required
         />
       </div>
-      <Botao />
+      {/*Como Botao tem um children como tipo, o pai que no caso é o formulario, pode passar um um conteúdo dentro desse Botao*/}
+      <Botao>Adicionar</Botao>
     </form>
   );
 };
