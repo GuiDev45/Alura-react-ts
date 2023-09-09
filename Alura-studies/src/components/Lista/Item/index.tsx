@@ -1,6 +1,5 @@
 import style from "../Lista.module.scss";
 
-// Desestruturando direto.
 function Item({ tarefa, tempo }: { tarefa: string; tempo: string }) {
   return (
     <li className={style.item}>
