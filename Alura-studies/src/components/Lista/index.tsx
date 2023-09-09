@@ -17,7 +17,6 @@ function Lista() {
   return (
     <aside>
       <h2> Estudos do dia </h2>
-      {/*Sempre quando for fazer um renderização de lista o react precisa de uma key, que no caso é o index, porém não é correto, o certo seria o item ter um id,o index pode ser variado e isso pode causar problemas logo não seria uma boa pratica*/}
       <ul>
         {tarefas.map((item, index) => (
           <li key={index}>
