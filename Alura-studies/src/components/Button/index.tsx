@@ -1,12 +1,16 @@
 import botao from "./Botao.module.scss";
 
 type botaoProps = {
-  texto?: string;
   children: React.ReactNode;
+  type?: "button" | "submit" | "reset" | undefined;
 };
 
-const Botao = ({ children }: botaoProps) => {
-  return <button className={botao.botao}>{children}</button>;
+const Botao = ({ children, type }: botaoProps) => {
+  return (
+    <button type={type} className={botao.botao}>
+      {children}
+    </button>
+  );
 };
 
 export default Botao;
